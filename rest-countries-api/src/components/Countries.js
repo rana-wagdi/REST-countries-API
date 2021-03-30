@@ -19,7 +19,7 @@ const Countries = () => {
 
 
     return (
-        <div>
+        <div className="grid">
             {countries.map((country) => {
                 const { numericCode, name, population, region, capital, flag } = country
                 return (
@@ -27,9 +27,15 @@ const Countries = () => {
                     <div>
                       <img src={flag} alt={name}></img>
                       <h3>{name}</h3>
-                      <h4>Population: {population}</h4>
-                      <h4>Region: {region}</h4>
-                      <h4>Capital: {capital}</h4>
+                      <h4>
+                        Population: <span>{population}</span>
+                      </h4>
+                      <h4>
+                        Region: <span>{region}</span>
+                      </h4>
+                      <h4>
+                        Capital: <span>{capital}</span>
+                      </h4>
                     </div>
                   </article>
                 );
