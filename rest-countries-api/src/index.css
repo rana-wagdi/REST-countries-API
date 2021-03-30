@@ -14,7 +14,7 @@ img{
 body {
   
   font-family: 'Nunito Sans', sans-serif;
-  padding: 20px;
+  
   background-color: hsl(207, 26%, 17%) ;
   color: #fff;
 }
@@ -25,14 +25,15 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: hsl(209, 23%, 22%);
+  padding: 10px 20px;
 }
 /* Filter */
 .filter{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0;
+   align-items: center;
+  /* justify-content: space-between; */ 
+  padding: 20px ;
 }
 .filter .form-control{
   width: 100%;
@@ -41,7 +42,7 @@ body {
 background-color: hsl(209, 23%, 22%);
 border: none;
 outline: none;
-padding: 8px;
+padding: 12px;
 border-radius: 5px;
 color: #fff;
 font-family: inherit;
@@ -52,10 +53,23 @@ margin: 0 0 30px;
 .filter .form-control input::placeholder {
   color: #fff;
 }
+.filter .region-filter{
+  /* width: 100%; */
+}
+.filter .region-filter select{
+  background-color: hsl(209, 23%, 22%);
+  color: #fff;
+  font-family: inherit;
+  padding: 12px;
+  width:200px;
+  border: none;
+  border-radius: 5px;
+}
 .grid{
   display: grid;
   grid-template-columns: 1fr;
   gap:40px;
+  padding: 20px;
   
 }
 .grid article {
@@ -87,14 +101,28 @@ margin: 0 0 30px;
   }
 }
 @media (min-width: 768px){
+  .filter{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .filter .form-control{
+  width: auto;
+}
+ .filter .form-control input{
+  width: auto;
+  margin: 0;
+}
+.filter .region-filter{
+  width: auto;
+}
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (min-width: 992px){
-  body{
-    padding: 50px 100px;
-  }
+ .header, .filter, .grid{
+   padding: 20px 100px;
+ }
   .grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 60px;
