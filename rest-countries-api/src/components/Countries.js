@@ -38,7 +38,8 @@ const Countries = () => {
                         <h4>
                           Capital: <span>{capital}</span>
                         </h4>
-                        <Link />
+                        <Link to={`/countries/${name}`}  > 
+                        Learn more</Link>
                       </div>
                     </div>
                   </article>
