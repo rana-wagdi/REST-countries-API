@@ -1,0 +1,21 @@
+.country{
+    padding: 50px;
+}
+.btn-light{
+    margin: 30px ;
+    display: inline-block;
+    padding: 6px 0px;
+    text-align: center;
+    width:10%;
+}
+/* .flag{
+    width: 40%;
+    float: left;
+}
+ .country-details{
+    float: right;
+    text-align: left;
+}
+.country-details h2{
+    margin: 20px;
+} */
