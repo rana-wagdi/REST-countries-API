@@ -30,6 +30,10 @@ img{
   background-color: #fff;
   color: hsl(207, 26%, 17%);
 }
+.btn-light{
+  background-color: hsl(209, 23%, 22%);
+  border: 2px solid hsl(209, 23%, 22%);
+}
 body {
   
   font-family: 'Nunito Sans', sans-serif;
