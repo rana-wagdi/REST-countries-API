@@ -10,7 +10,26 @@
 img{
   max-width: 100%;
 }
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.btn{
+  background-color: hsl(207, 26%, 17%);
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid hsl(207, 26%, 17%);
+  border-radius: 4px;
+  transition: background-color 0.2s ;
+}
+.btn:hover{
+  background-color: #fff;
+  color: hsl(207, 26%, 17%);
+}
 body {
   
   font-family: 'Nunito Sans', sans-serif;
@@ -94,6 +113,7 @@ margin: 0 0 30px;
 .grid .details h4 span{
   font-weight: 300;
 }
+
 
 @media (min-width: 640px){
   .grid {
