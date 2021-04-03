@@ -41,7 +41,10 @@ body {
   background-color: hsl(207, 26%, 17%) ;
   color: #fff;
 }
-
+.light-theme{
+  background-color:  hsl(0, 0%, 98%);
+  color:  hsl(200, 15%, 8%);
+}
 /*Header*/
 .header{
   display: flex;
@@ -49,6 +52,10 @@ body {
   justify-content: space-between;
   background-color: hsl(209, 23%, 22%);
   padding: 10px 20px;
+}
+.header .light-theme{
+  background-color: hsl(0, 0%, 98%);
+  color:  hsl(200, 15%, 8%);
 }
 /* Filter */
 .filter{
