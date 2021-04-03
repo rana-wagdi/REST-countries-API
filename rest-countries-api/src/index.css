@@ -53,9 +53,10 @@ body {
   background-color: hsl(209, 23%, 22%);
   padding: 10px 20px;
 }
-.header .light-theme{
+header.light-theme{
   background-color: hsl(0, 0%, 98%);
   color:  hsl(200, 15%, 8%);
+  
 }
 /* Filter */
 .filter{
@@ -82,6 +83,10 @@ margin: 0 0 30px;
 }
 .filter .form-control input::placeholder {
   color: #fff;
+}
+
+.form-control input.light-theme, select.light-theme{
+  background-color: hsl(0, 0%, 52%);
 }
 .filter .region-filter{
   /* width: 100%; */
