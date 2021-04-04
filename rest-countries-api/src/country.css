@@ -19,6 +19,7 @@
 .country-details h2{
     margin: 20px;
 } */
+
 .country article .country-details{
     margin: 40px;
 }
@@ -53,6 +54,9 @@
     padding: 3px 25px;
     border-radius: 3px;
     box-shadow: 0 5px 20px hsla(200, 15%, 8%, 0.5);
+}
+.country article .borders ul.light-theme {
+    background-color: hsl(0, 0%, 98%);
 }
 .country article .borders ul li{
     list-style: none;
