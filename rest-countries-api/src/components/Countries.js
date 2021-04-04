@@ -33,7 +33,10 @@ const removeCountry = (numericCode)=> {
                     <div>
                       <img src={flag} alt={name}></img>
                       <div className="details">
-                        <h3>{name}</h3>
+                        <h4 className="country-name">
+                          Name: 
+                          <span> {name}</span>
+                        </h4>
                         <h4>
                           Population: <span>{population}</span>
                         </h4>

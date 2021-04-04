@@ -41,8 +41,8 @@ body {
   background-color: hsl(207, 26%, 17%) ;
   color: #fff;
 }
-.light-theme{
-  background-color:  hsl(0, 0%, 98%);
+body.light-theme{
+  background-color:  #dfdfdf;
   color:  hsl(200, 15%, 8%);
 }
 /*Header*/
